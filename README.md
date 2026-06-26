@@ -41,3 +41,7 @@ The page has no build step and no external runtime dependencies.
 For a GitHub-ready summary of what this assist page does and how it was checked, see:
 
 [`reports/frus1993-00v14-public-diplomacy-github-report.md`](reports/frus1993-00v14-public-diplomacy-github-report.md)
+
+For the source-note FRUS Annotation Checker rerun, see:
+
+[`reports/frus-source-note-annotation-checker-2026-06-26.md`](reports/frus-source-note-annotation-checker-2026-06-26.md)
