@@ -616,6 +616,16 @@ select {
   color: #394752;
 }
 
+.document-source-note {
+  padding: 12px 14px;
+  border: 1px solid rgba(77, 59, 91, 0.18);
+  border-left: 4px solid var(--plum);
+  background: #faf8f5;
+  border-radius: 6px;
+  font-size: 0.94rem;
+  line-height: 1.55;
+}
+
 .document-details {
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 0 18px;

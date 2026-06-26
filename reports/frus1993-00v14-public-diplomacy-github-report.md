@@ -28,6 +28,7 @@ This page now has its own GitHub repository and GitHub Pages website:
 - A matching stylesheet and browser script at `styles.css` and `app.js`.
 - A custom SVG source map at `assets/public-diplomacy-source-map.svg`.
 - A chronological potential-document register with estimated review-PDF page counts and provenance-sheet append instructions for Clinton Library PDFs.
+- Draft Clinton Library source notes for each document candidate, aligned to the published Bush Library FRUS pattern: repository, presidential records, office/series, OA/Box or folder trail, then release and restriction facts.
 - A local README with run and validation notes.
 - A directory tile in the main `Compiler Assist` index for Volume XIV.
 
@@ -46,7 +47,7 @@ The page is organized around work a compiler can act on:
   - Audience and Media Reaction
   - Source-Note Readiness
 - Eighteen source anchors across Office of the Historian, Clinton Digital Library, State Department archive, NARA, GovInfo, and Congress.gov.
-- Eighteen potential document candidates listed chronologically, with source PDF pages, document-image pages, provenance-sheet page, and estimated review-PDF pages.
+- Eighteen potential document candidates listed chronologically, with source PDF pages, document-image pages, provenance-sheet page, estimated review-PDF pages, and per-entry Clinton Library source-note prose.
 - Six first-pull queue items.
 - Six copyable search recipes.
 - Four boundary-control checks.
