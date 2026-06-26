@@ -8,8 +8,8 @@
       name="description"
       content="A source-first compiler assist page for Foreign Relations of the United States, 1993-2000, Volume XIV, Public Diplomacy."
     />
-    <link rel="stylesheet" href="styles.css?v=20260625-public-diplomacy" />
-    <script defer src="app.js?v=20260625-public-diplomacy"></script>
+    <link rel="stylesheet" href="styles.css?v=20260626-document-candidates" />
+    <script defer src="app.js?v=20260626-document-candidates"></script>
   </head>
   <body>
     <div class="compiler-network" role="navigation" aria-label="Compiler network">
@@ -34,6 +34,7 @@
         <a href="#desk">Desk</a>
         <a href="#lanes">Lanes</a>
         <a href="#sources">Sources</a>
+        <a href="#documents">Documents</a>
         <a href="#chronology">Chronology</a>
         <a href="#queue">Pull Queue</a>
         <a href="#recipes">Searches</a>
@@ -55,6 +56,7 @@
           </p>
           <div class="hero-actions" aria-label="Primary actions">
             <a class="button primary" href="#sources">Open Source Browser</a>
+            <a class="button secondary" href="#documents">Review Documents</a>
             <a class="button secondary" href="#queue">Start Pull Queue</a>
             <a class="button secondary" href="#notes">Draft Source Notes</a>
           </div>
@@ -112,6 +114,41 @@
         <div>
           <span id="gap-count">0</span>
           <p>boundary checks</p>
+        </div>
+      </section>
+
+      <section class="section documents-section" id="documents" aria-labelledby="documents-title">
+        <div class="section-heading">
+          <div>
+            <p class="kicker">Candidate Register</p>
+            <h2 id="documents-title">Potential FRUS Documents To Include</h2>
+          </div>
+          <p>
+            Chronological first-pass candidates from Clinton Library PDFs. Slice document
+            pages for review, then append the relevant Clinton Library withdrawal or
+            redaction sheet as the final provenance page.
+          </p>
+        </div>
+        <div class="document-method" aria-label="PDF extraction method">
+          <article>
+            <strong>Slice</strong>
+            <span>Extract the document-image pages listed in each row.</span>
+          </article>
+          <article>
+            <strong>Append</strong>
+            <span>Add the listed provenance sheet as the last page of the review PDF.</span>
+          </article>
+          <article>
+            <strong>Verify</strong>
+            <span>Check date, title, markings, folder trail, and boundary before selection.</span>
+          </article>
+        </div>
+        <div class="document-tools" aria-label="Document register actions">
+          <p id="document-summary" class="result-summary">Loading document candidates...</p>
+          <button id="download-documents" type="button">CSV</button>
+        </div>
+        <div id="documents-root" class="document-list" aria-live="polite">
+          <p class="loading">Loading document candidates...</p>
         </div>
       </section>
 

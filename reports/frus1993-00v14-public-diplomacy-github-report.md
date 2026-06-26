@@ -27,6 +27,7 @@ This page now has its own GitHub repository and GitHub Pages website:
 - A standalone static assist page at `Clinton-PublicDiplomacy-93-00/index.html`.
 - A matching stylesheet and browser script at `styles.css` and `app.js`.
 - A custom SVG source map at `assets/public-diplomacy-source-map.svg`.
+- A chronological potential-document register with estimated review-PDF page counts and provenance-sheet append instructions for Clinton Library PDFs.
 - A local README with run and validation notes.
 - A directory tile in the main `Compiler Assist` index for Volume XIV.
 
@@ -45,6 +46,7 @@ The page is organized around work a compiler can act on:
   - Audience and Media Reaction
   - Source-Note Readiness
 - Eighteen source anchors across Office of the Historian, Clinton Digital Library, State Department archive, NARA, GovInfo, and Congress.gov.
+- Eighteen potential document candidates listed chronologically, with source PDF pages, document-image pages, provenance-sheet page, and estimated review-PDF pages.
 - Six first-pull queue items.
 - Six copyable search recipes.
 - Four boundary-control checks.

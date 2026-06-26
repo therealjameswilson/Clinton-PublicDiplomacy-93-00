@@ -258,7 +258,8 @@ p {
 .tool-panel button,
 .source-card button,
 .recipe-card button,
-.note-card button {
+.note-card button,
+.document-tools button {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -361,6 +362,8 @@ dd {
 .desk-panel,
 .lane-card,
 .source-card,
+.document-card,
+.document-method article,
 .queue-item,
 .recipe-card,
 .note-card,
@@ -417,6 +420,8 @@ dd {
 .desk-panel,
 .lane-card,
 .source-card,
+.document-card,
+.document-method article,
 .queue-item,
 .recipe-card,
 .note-card,
@@ -531,6 +536,100 @@ select {
   margin-top: auto;
 }
 
+.document-method {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.document-method article {
+  display: grid;
+  gap: 6px;
+  padding: 16px;
+  border-left: 5px solid var(--gold);
+}
+
+.document-method strong {
+  color: var(--navy);
+  font-size: 1rem;
+}
+
+.document-method span {
+  color: var(--muted);
+  line-height: 1.5;
+}
+
+.document-tools {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  margin-bottom: 14px;
+}
+
+.document-tools p {
+  margin: 0;
+}
+
+.document-list {
+  display: grid;
+  gap: 12px;
+}
+
+.document-card {
+  display: grid;
+  grid-template-columns: 60px minmax(0, 1fr);
+  gap: 16px;
+  padding: 18px;
+  border-left: 5px solid var(--plum);
+}
+
+.document-number {
+  display: grid;
+  width: 46px;
+  height: 46px;
+  place-items: center;
+  color: white;
+  background: var(--plum);
+  border-radius: 6px;
+  font-weight: 900;
+}
+
+.document-body {
+  min-width: 0;
+}
+
+.document-meta,
+.document-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.document-meta {
+  margin-bottom: 10px;
+}
+
+.document-card p {
+  margin-bottom: 14px;
+  color: #394752;
+}
+
+.document-details {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0 18px;
+  margin: 0 0 14px;
+}
+
+.document-details div {
+  padding: 8px 0;
+}
+
+.document-details dd {
+  overflow-wrap: anywhere;
+}
+
 .timeline {
   display: grid;
   gap: 12px;
@@ -638,6 +737,7 @@ select {
   .source-grid,
   .recipe-grid,
   .boundary-grid,
+  .document-method,
   .stats {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -669,13 +769,16 @@ select {
   .source-grid,
   .recipe-grid,
   .boundary-grid,
+  .document-method,
   .stats,
   .note-layout {
     grid-template-columns: 1fr;
   }
 
   .queue-item,
-  .timeline-item {
+  .timeline-item,
+  .document-card,
+  .document-details {
     grid-template-columns: 1fr;
   }
 }

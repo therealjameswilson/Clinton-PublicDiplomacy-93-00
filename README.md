@@ -4,7 +4,9 @@ Static compiler-assist page for:
 
 <https://history.state.gov/historicaldocuments/frus1993-00v14>
 
-The official Office of the Historian page identifies the volume as *Foreign Relations of the United States, 1993-2000, Volume XIV, Public Diplomacy* and notes that its status is planned. This assist page therefore starts with source routes, pull queues, chronology pivots, search recipes, and boundary controls rather than a document-browser table.
+The official Office of the Historian page identifies the volume as *Foreign Relations of the United States, 1993-2000, Volume XIV, Public Diplomacy* and notes that its status is planned. This assist page therefore starts with source routes, a chronological potential-document register, pull queues, chronology pivots, search recipes, and boundary controls rather than a finished document-browser table.
+
+The document register follows the Clinton Library PDF pattern used on the other FRUS Assist pages: slice the document-image pages for a review PDF, then append the relevant Clinton Library withdrawal/redaction sheet as the final provenance page.
 
 ## Live Site
 

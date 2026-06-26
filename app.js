@@ -330,6 +330,236 @@ const sources = [
   }
 ];
 
+const sourcePdfUrls = {
+  "international-broadcasting": "https://clinton.presidentiallibraries.us/files/original/3d0a84d88524cc2e1adfcefc85ecbf1e.pdf",
+  "clinton-usia": "https://clinton.presidentiallibraries.us/files/original/b9e2b7973ee113f8d5f3cdf84c1fa7e9.pdf",
+  "radio-marti": "https://clinton.presidentiallibraries.us/files/original/4d91d87456fb83a20ea4e474a27cbd26.pdf",
+  "pdd-68": "https://clinton.presidentiallibraries.us/files/original/bc06e6707c229a6666fde88ab3859dcc.pdf",
+  "ring-around-serbia": "https://clinton.presidentiallibraries.us/files/original/0db918e8527efeae2cbc77abda19e3ed.pdf",
+  "rfe-rl": "https://clinton.presidentiallibraries.us/files/original/d441919ee80b70a6b5f75c9b8ef4af2e.pdf",
+  "lieberman-uspd": "https://clinton.presidentiallibraries.us/files/original/5d5391f5d5709bdb1a78ac4f254bcd91.pdf",
+  "culture-diplomacy": "https://clinton.presidentiallibraries.us/files/original/ec416cb531de47cee397b81857c868f0.pdf"
+};
+
+const documentCandidates = [
+  {
+    date: "1993-05-14",
+    title: "Robert Morley to Anthony Lake, proposed remarks by the President on Cuba's Independence Day",
+    sourceId: "radio-marti",
+    sourcePages: "54-59",
+    documentPages: "55-59",
+    provenancePage: "54",
+    estimatedPages: 6,
+    posture: "Boundary candidate",
+    why:
+      "Pairs NSC clearance with a presidential public line on Cuba; include only if the editorial point is audience strategy rather than Cuba policy itself."
+  },
+  {
+    date: "1993-07-23",
+    title: "Gordon Adams and Richard Clarke to Leon Panetta et al., legislative strategy for international broadcasting consolidation",
+    sourceId: "international-broadcasting",
+    sourcePages: "79-82",
+    documentPages: "80-82",
+    provenancePage: "79",
+    estimatedPages: 4,
+    posture: "High-value candidate",
+    why:
+      "Shows senior review of broadcasting consolidation, journalistic independence, BBG control, and presidential foreign-policy control."
+  },
+  {
+    date: "1993-09-18",
+    title: "Jeremy Rosner to Nancy Soderberg et al., Radios -- Update",
+    sourceId: "international-broadcasting",
+    sourcePages: "65, 67-68",
+    documentPages: "67-68",
+    provenancePage: "65",
+    estimatedPages: 3,
+    posture: "Broadcasting candidate",
+    why:
+      "Early NSC email on radio reorganization and broadcast policy; useful for opening the Clinton-era broadcasting lane."
+  },
+  {
+    date: "1994-06-24",
+    title: "Leon Panetta to Anthony Lake, cost of relocating RFE/RL headquarters to Prague",
+    sourceId: "international-broadcasting",
+    sourcePages: "29-35",
+    documentPages: "30-35",
+    provenancePage: "29",
+    estimatedPages: 7,
+    posture: "High-value candidate",
+    why:
+      "Documents the budget and policy stakes behind moving Radio Free Europe/Radio Liberty to Prague."
+  },
+  {
+    date: "1995-01-10",
+    title: "John Lennon to Morton Halperin, Public Diplomacy-USIA",
+    sourceId: "clinton-usia",
+    sourcePages: "223, 225-229",
+    documentPages: "225-229",
+    provenancePage: "223",
+    estimatedPages: 6,
+    posture: "High-value candidate",
+    why:
+      "Compact briefing on USIA functions, international broadcasting, posts, exchanges, and how public diplomacy fit the reorganization debate."
+  },
+  {
+    date: "1995-02-14",
+    title: "Joseph Duffey to Morton Halperin, Co-ordinated Public Affairs Campaigns in Foreign Policy",
+    sourceId: "clinton-usia",
+    sourcePages: "60, 67-70",
+    documentPages: "67-70",
+    provenancePage: "60",
+    estimatedPages: 5,
+    posture: "High-value candidate",
+    why:
+      "Identifies public diplomacy campaigns, target audiences, and areas where USIA could support urgent foreign-policy objectives."
+  },
+  {
+    date: "1995-03-25",
+    title: "Morton Halperin to Gordon Adams et al., NPR Phase II: Public Affairs/Public Diplomacy-State/USIA",
+    sourceId: "clinton-usia",
+    sourcePages: "1-10",
+    documentPages: "2-10",
+    provenancePage: "1",
+    estimatedPages: 10,
+    posture: "Anchor candidate",
+    why:
+      "Core State/USIA reorganization record, with public affairs and public diplomacy coordination, wireless file, Smith-Mundt, and staffing proposals."
+  },
+  {
+    date: "1996-04-22",
+    title: "William Davis to Edwin Atlas et al., Radio Marti move to Miami",
+    sourceId: "radio-marti",
+    sourcePages: "51-53",
+    documentPages: "52-53",
+    provenancePage: "51",
+    estimatedPages: 3,
+    posture: "Broadcasting candidate",
+    why:
+      "Operational public diplomacy issue with Cuba-broadcasting governance implications; keep policy substance in the Cuba volume if that dominates."
+  },
+  {
+    date: "1996-11-26",
+    title: "Janie Fritzman to Director Duffey, removal of USIA employees from the Patrick Henry Building",
+    sourceId: "clinton-usia",
+    sourcePages: "82-85",
+    documentPages: "83-85",
+    provenancePage: "82",
+    estimatedPages: 4,
+    posture: "Context candidate",
+    why:
+      "Useful if the volume needs a concrete institutional transition record tied to USIA operations and the International Broadcasting Bureau."
+  },
+  {
+    date: "1998-07-07",
+    title: "Eric Schwartz to Robert Malley, International Public Information",
+    sourceId: "pdd-68",
+    sourcePages: "13-15",
+    documentPages: "14-15",
+    provenancePage: "13",
+    estimatedPages: 3,
+    posture: "PDD-68 candidate",
+    why:
+      "Captures NSC staff exchange over international public information before the final PDD-68 package."
+  },
+  {
+    date: "1998-09-25",
+    title: "Thomas Adams to Robert Gelbard, U.S. Programming for ANEM TV",
+    sourceId: "pdd-68",
+    sourcePages: "4-6",
+    documentPages: "5-6",
+    provenancePage: "4",
+    estimatedPages: 3,
+    posture: "Boundary candidate",
+    why:
+      "A Balkans-facing information-program record; include only if the public diplomacy mechanism is the point."
+  },
+  {
+    date: "1998-12-01",
+    title: "James Baker email and attached package, IPI PDD Package",
+    sourceId: "pdd-68",
+    sourcePages: "9-12",
+    documentPages: "11-12",
+    provenancePage: "9",
+    estimatedPages: 4,
+    posture: "Anchor lead",
+    why:
+      "The withdrawal sheet identifies a larger IPI/PDD package, including memoranda to the Vice President and President; visible pages should be checked against the full redaction map."
+  },
+  {
+    date: "1999-09-24",
+    title: "Mara Rudman and Tina Kaidanow email thread, requests for Sandy Berger speech and Ring Around Serbia language",
+    sourceId: "ring-around-serbia",
+    sourcePages: "39, 41-49",
+    documentPages: "41-49",
+    provenancePage: "39",
+    estimatedPages: 10,
+    posture: "Boundary candidate",
+    why:
+      "Shows speech clearance and public-line drafting around Serbian democracy assistance and objective-information broadcasting."
+  },
+  {
+    date: "1999-11-04",
+    title: "U.S. Office Pristina to Secretary of State, moving forward on public television in Kosovo",
+    sourceId: "ring-around-serbia",
+    sourcePages: "2, 18-22",
+    documentPages: "18-22",
+    provenancePage: "2",
+    estimatedPages: 6,
+    posture: "Regional candidate",
+    why:
+      "A public-television implementation cable with clear public diplomacy value, but it needs a Balkans-volume boundary check."
+  },
+  {
+    date: "2000-01-10",
+    title: "Public Diplomacy Guidelines",
+    sourceId: "lieberman-uspd",
+    sourcePages: "51, 53-57",
+    documentPages: "53-57",
+    provenancePage: "51",
+    estimatedPages: 6,
+    posture: "Anchor candidate",
+    why:
+      "Under Secretary-level guidance on the post-USIA public diplomacy mission, resources, exchanges, culture, training, and State integration."
+  },
+  {
+    date: "2000-03-10",
+    title: "Public Diplomacy in Ukraine and the NIS",
+    sourceId: "lieberman-uspd",
+    sourcePages: "51, 59-61",
+    documentPages: "59-61",
+    provenancePage: "51",
+    estimatedPages: 4,
+    posture: "Regional candidate",
+    why:
+      "Shows how the new public diplomacy apparatus translated policy goals into country-program needs after the USIA-State transition."
+  },
+  {
+    date: "2000-05-29",
+    title: "Andrew Weiss and Mark Medish email thread, RFE/RL and Babitskiy",
+    sourceId: "rfe-rl",
+    sourcePages: "1-6",
+    documentPages: "2-6",
+    provenancePage: "1",
+    estimatedPages: 6,
+    posture: "Broadcasting candidate",
+    why:
+      "Useful for media freedom, Russia boundary review, and senior-level handling of RFE/RL programming questions."
+  },
+  {
+    date: "2000-11-15",
+    title: "Brian Carlson, revised scenario for East Room event on the White House Conference on Culture and Diplomacy",
+    sourceId: "culture-diplomacy",
+    sourcePages: "58-66",
+    documentPages: "59-66",
+    provenancePage: "58",
+    estimatedPages: 9,
+    posture: "Culture candidate",
+    why:
+      "Late-Clinton cultural diplomacy record with explicit public diplomacy framing, foreign participants, and Secretary-level integration language."
+  }
+];
+
 const chronology = [
   {
     date: "January 1993",
@@ -483,10 +713,17 @@ Tracking fields outside note prose:
 - NAID or catalog URL
 - Local filename or extraction path
 - Search query that found the item
-- Compiler disposition and boundary rationale`;
+- Compiler disposition and boundary rationale
+
+Clinton Library review-PDF rule:
+- Extract document-image pages first
+- Append the relevant Withdrawal/Redaction Sheet as the final provenance page
+- Keep source PDF URL, source pages, document pages, and provenance page in tracking fields`;
 
 const sourceRoot = document.querySelector("#source-root");
 const sourceSummary = document.querySelector("#source-summary");
+const documentsRoot = document.querySelector("#documents-root");
+const documentSummary = document.querySelector("#document-summary");
 const repositoryFilter = document.querySelector("#repository-filter");
 const laneFilter = document.querySelector("#lane-filter");
 const priorityFilter = document.querySelector("#priority-filter");
@@ -631,6 +868,93 @@ function renderSources() {
       link.textContent = "Open source";
 
       card.append(meta, title, chips, coverage, useFor, tracking, link);
+      return card;
+    })
+  );
+}
+
+function formatDate(value) {
+  const date = new Date(`${value}T00:00:00`);
+  if (Number.isNaN(date.getTime())) return value;
+  return date.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
+}
+
+function sortedDocumentCandidates() {
+  return [...documentCandidates].sort((a, b) => a.date.localeCompare(b.date) || a.title.localeCompare(b.title));
+}
+
+function renderDocumentCandidates() {
+  if (!documentsRoot || !documentSummary) return;
+  const candidates = sortedDocumentCandidates();
+  const estimatedPages = candidates.reduce((sum, item) => sum + item.estimatedPages, 0);
+  documentSummary.textContent = `${candidates.length} candidates in chronological order; about ${estimatedPages} review-PDF pages if each extract keeps its provenance sheet.`;
+
+  documentsRoot.replaceChildren(
+    ...candidates.map((candidate, index) => {
+      const source = sourceById(candidate.sourceId);
+      const card = document.createElement("article");
+      card.className = "document-card";
+
+      const number = document.createElement("div");
+      number.className = "document-number";
+      number.textContent = String(index + 1).padStart(2, "0");
+
+      const body = document.createElement("div");
+      body.className = "document-body";
+
+      const meta = document.createElement("div");
+      meta.className = "document-meta";
+      meta.append(
+        createChip(formatDate(candidate.date)),
+        createChip(source?.title || "Clinton Library PDF"),
+        createChip(candidate.posture),
+        createChip(`${candidate.estimatedPages} pp. est.`)
+      );
+
+      const title = document.createElement("h3");
+      title.textContent = candidate.title;
+
+      const why = document.createElement("p");
+      why.textContent = candidate.why;
+
+      const details = document.createElement("dl");
+      details.className = "document-details";
+      for (const [label, value] of [
+        ["Source PDF pages", candidate.sourcePages],
+        ["Document pages", candidate.documentPages],
+        ["Provenance sheet", candidate.provenancePage],
+        ["Review PDF order", `pp. ${candidate.documentPages}, then p. ${candidate.provenancePage}`]
+      ]) {
+        const row = document.createElement("div");
+        const dt = document.createElement("dt");
+        dt.textContent = label;
+        const dd = document.createElement("dd");
+        dd.textContent = value;
+        row.append(dt, dd);
+        details.append(row);
+      }
+
+      const actions = document.createElement("div");
+      actions.className = "document-actions";
+      const itemLink = document.createElement("a");
+      itemLink.className = "button secondary";
+      itemLink.href = source?.url || "#sources";
+      itemLink.rel = "noreferrer";
+      itemLink.textContent = "Item page";
+      actions.append(itemLink);
+
+      const pdfUrl = sourcePdfUrls[candidate.sourceId];
+      if (pdfUrl) {
+        const pdfLink = document.createElement("a");
+        pdfLink.className = "button secondary";
+        pdfLink.href = pdfUrl;
+        pdfLink.rel = "noreferrer";
+        pdfLink.textContent = "Source PDF";
+        actions.append(pdfLink);
+      }
+
+      body.append(meta, title, why, details, actions);
+      card.append(number, body);
       return card;
     })
   );
@@ -801,8 +1125,45 @@ function downloadSourcesCsv() {
   URL.revokeObjectURL(link.href);
 }
 
+function downloadDocumentsCsv() {
+  const fields = [
+    "date",
+    "title",
+    "source",
+    "itemUrl",
+    "sourcePdfUrl",
+    "sourcePages",
+    "documentPages",
+    "provenancePage",
+    "estimatedPages",
+    "posture",
+    "why"
+  ];
+  const rows = [fields.join(",")];
+  for (const candidate of sortedDocumentCandidates()) {
+    const source = sourceById(candidate.sourceId);
+    const row = {
+      ...candidate,
+      source: source?.title || candidate.sourceId,
+      itemUrl: source?.url || "",
+      sourcePdfUrl: sourcePdfUrls[candidate.sourceId] || ""
+    };
+    rows.push(fields.map((field) => csvEscape(row[field])).join(","));
+  }
+  const blob = new Blob([`${rows.join("\n")}\n`], { type: "text/csv;charset=utf-8" });
+  const link = document.createElement("a");
+  link.href = URL.createObjectURL(blob);
+  link.download = "frus-1993-2000-v14-public-diplomacy-document-candidates.csv";
+  link.click();
+  URL.revokeObjectURL(link.href);
+}
+
 function compilerHandoffText() {
   const firstPull = queueItems.map((item, index) => `${index + 1}. ${item.title}`).join("\n");
+  const topDocuments = sortedDocumentCandidates()
+    .slice(0, 10)
+    .map((item, index) => `${index + 1}. ${formatDate(item.date)} - ${item.title} (${item.estimatedPages} pp. est.; source pp. ${item.sourcePages}; append provenance p. ${item.provenancePage})`)
+    .join("\n");
   return [
     "FRUS 1993-2000, Volume XIV: Public Diplomacy",
     "Assist page: " + new URL(".", window.location.href).href,
@@ -811,6 +1172,11 @@ function compilerHandoffText() {
     "",
     "Start order:",
     firstPull,
+    "",
+    "Potential document candidates:",
+    topDocuments,
+    "",
+    "PDF extraction rule: slice the document pages first, then append the listed Clinton Library Withdrawal/Redaction Sheet as the final page of the review PDF.",
     "",
     "Review rule: keep the page source-first. Item IDs and URLs are tracking fields; finished source notes need repository, collection, series, file unit, classification, and release facts.",
     "",
@@ -836,6 +1202,7 @@ function bindControls() {
   });
 
   document.querySelector("#download-sources")?.addEventListener("click", downloadSourcesCsv);
+  document.querySelector("#download-documents")?.addEventListener("click", downloadDocumentsCsv);
 
   document.querySelector("#source-note-skeleton").textContent = sourceNoteSkeleton;
   document.querySelector("#copy-source-note")?.addEventListener("click", (event) => {
@@ -852,6 +1219,7 @@ function init() {
   renderLanes();
   bindControls();
   renderSources();
+  renderDocumentCandidates();
   renderChronology();
   renderQueue();
   renderRecipes();
