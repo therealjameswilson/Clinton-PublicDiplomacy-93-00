@@ -2,6 +2,10 @@
 
 Run date: June 26, 2026
 
+Update: This checker rerun was followed by the publication-form verification in
+[`frus-source-note-publication-readiness-2026-06-26.md`](frus-source-note-publication-readiness-2026-06-26.md).
+The current website source notes no longer retain FOIA/P-code sentences in source-note prose; those fields remain tracking/provenance metadata outside the finished note.
+
 Inputs:
 
 - `FRUS Annotation Checker Operator Script.docx`
@@ -16,7 +20,7 @@ Inputs:
     "target_subseries": "clinton",
     "routing_basis": "Target volume ID frus1993-00v14, Clinton Library source family, and candidate source notes for Clinton-era public diplomacy records.",
     "overall_readiness": "ready_with_low_risk_edits",
-    "summary": "The checker rerun reviewed all 18 candidate source notes. Safe mechanical fixes were applied to restore parent source-family order before NSC series names and to make withdrawal-sheet language less informal. No remaining safe direct-edit findings were found. Final publication-level classification and handling language remains evidence-gated pending document-image review."
+    "summary": "The checker rerun reviewed all 18 candidate source notes. Safe mechanical fixes were applied to restore parent source-family order before NSC series names and to make withdrawal-sheet language less informal. This run was superseded by the publication-form verification, which removed FOIA/P-code language from source-note prose and added document-image classification statements."
   },
   "coverage_report": {
     "review_scope": "selected_units",
@@ -38,10 +42,10 @@ Inputs:
       "category": "source_note",
       "style_question": "Should Clinton Library FOIA withdrawal-sheet P-code restriction metadata remain in final published source-note prose or move fully to tracking/provenance fields?",
       "variants_observed": [
-        "Draft source note retains FOIA case and withdrawal-sheet P-code sentence.",
-        "Final FRUS-style source note may reserve classification and handling prose for markings verified on the document image."
+        "Earlier draft source notes retained FOIA case and withdrawal-sheet P-code sentences.",
+        "Final publication-form source notes reserve classification and handling prose for markings verified on the document image."
       ],
-      "provisional_handling": "Retain P-code sentence as draft compiler-facing restriction metadata; verify against document images before final selection.",
+      "provisional_handling": "Resolved in the publication-readiness pass: keep P-code metadata in tracking/provenance fields, not source-note prose.",
       "representative_units": [
         "All 18 candidate source notes"
       ]
@@ -59,10 +63,10 @@ Inputs:
   "comment_only_items": [
     {
       "error_id": "D001",
-      "comment_text": "Treat Clinton Library withdrawal-sheet P codes as restriction metadata, not classification markings, until document images support final classification and handling language."
+      "comment_text": "Resolved in the publication-readiness pass: document images now support the classification/no-classification statements, and P codes remain tracking metadata outside source-note prose."
     }
   ]
 }
 ```
 
-Summary: The rerun found no remaining chronological source-note errors after the safe mechanical fixes. The main residual risk is evidence-gated: final FRUS publication notes should verify classification and handling from the document images, while the current page keeps the P-code language as draft compiler-facing restriction metadata.
+Summary: The rerun found no remaining chronological source-note errors after the safe mechanical fixes. This report was later superseded by the publication-readiness pass, which verified classification/no-classification statements from document images and removed FOIA/P-code language from source-note prose.

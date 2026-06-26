@@ -562,41 +562,41 @@ const documentCandidates = [
 
 const candidateSourceNotes = {
   "1993-05-14|radio-marti|54":
-    "Source: William J. Clinton Presidential Library, Clinton Presidential Records, National Security Council, NSC Records Management, Radio Marti, OA/Box Number 149, 9303402. Released under FOIA 2006-0204-F; the withdrawal sheet lists P5 restrictions.",
+    "Source: William J. Clinton Presidential Library, Clinton Presidential Records, National Security Council, NSC Records Management, Radio Marti, OA/Box Number 149, 9303402. No classification marking.",
   "1993-07-23|international-broadcasting|79":
-    "Source: William J. Clinton Presidential Library, Clinton Presidential Records, National Security Council, Unclassified Records Management System (URMS), Broadcasting, OA/Box Number 1377, 9305485. Released under FOIA 2006-0202-F; the withdrawal sheet lists P5 restrictions.",
+    "Source: William J. Clinton Presidential Library, Clinton Presidential Records, National Security Council, Unclassified Records Management System (URMS), Broadcasting, OA/Box Number 1377, 9305485. No classification marking.",
   "1993-09-18|international-broadcasting|65":
-    "Source: William J. Clinton Presidential Library, Clinton Presidential Records, National Security Council, NSC Emails, A1-Record (Jan. 1993-Sept. 1994), OA/Box Number 570000, [02/19/1993-06/15/1994]. Released under FOIA 2006-0202-F; the withdrawal sheet lists P5 restrictions.",
+    "Source: William J. Clinton Presidential Library, Clinton Presidential Records, National Security Council, NSC Emails, A1-Record (Jan. 1993-Sept. 1994), OA/Box Number 570000, [02/19/1993-06/15/1994]. Unclassified.",
   "1994-06-24|international-broadcasting|29":
-    "Source: William J. Clinton Presidential Library, Clinton Presidential Records, National Security Council, Halperin (Democracy/Human Rights), OA/Box Number 436, International Broadcasting-RFE/RL-Move to Prague: RFE/RL-Prague Pre-Decision. Released under FOIA 2006-0202-F; the withdrawal sheet lists P5 restrictions.",
+    "Source: William J. Clinton Presidential Library, Clinton Presidential Records, National Security Council, Halperin (Democracy/Human Rights), OA/Box Number 436, International Broadcasting-RFE/RL-Move to Prague: RFE/RL-Prague Pre-Decision. No classification marking.",
   "1995-01-10|clinton-usia|223":
-    "Source: William J. Clinton Presidential Library, Clinton Presidential Records, National Security Council, NSC Emails, MSMail-Record, September 1994-September 1997, USIA near reorganization, OA/Box Number 590000, [01/06/1995-05/30/1995]. Released under FOIA 2006-0208-F; the withdrawal sheet lists P5 restrictions.",
+    "Source: William J. Clinton Presidential Library, Clinton Presidential Records, National Security Council, NSC Emails, MSMail-Record, September 1994-September 1997, USIA near reorganization, OA/Box Number 590000, [01/06/1995-05/30/1995]. Unclassified.",
   "1995-02-14|clinton-usia|60":
-    "Source: William J. Clinton Presidential Library, Clinton Presidential Records, National Security Council, Mort Halperin (Democracy/Human Rights), OA/Box Number 435, REGO: State/USIA (Public Affairs-Public Diplomacy) [2]. Released under FOIA 2006-0208-F; the withdrawal sheet lists P5 restrictions.",
+    "Source: William J. Clinton Presidential Library, Clinton Presidential Records, National Security Council, Mort Halperin (Democracy/Human Rights), OA/Box Number 435, REGO: State/USIA (Public Affairs-Public Diplomacy) [2]. No classification marking.",
   "1995-03-25|clinton-usia|1":
-    "Source: William J. Clinton Presidential Library, Clinton Presidential Records, National Security Council, Morton Halperin (Democracy/Human Rights), OA/Box Number 435, REGO: State/USIA [U.S. Information Agency] (Public Affairs-Public Diplomacy) [1]. Released under FOIA 2006-0208-F; the withdrawal sheet lists P5 restrictions.",
+    "Source: William J. Clinton Presidential Library, Clinton Presidential Records, National Security Council, Morton Halperin (Democracy/Human Rights), OA/Box Number 435, REGO: State/USIA [U.S. Information Agency] (Public Affairs-Public Diplomacy) [1]. No classification marking.",
   "1996-04-22|radio-marti|51":
-    "Source: William J. Clinton Presidential Library, Clinton Presidential Records, National Security Council, NSC Emails, MSMail-Non-Record, September 1994-September 1997, Radio Marti, OA/Box Number 605000, [07/28/1995-04/26/1996]. Released under FOIA 2006-0204-F; the withdrawal sheet lists P5 restrictions.",
+    "Source: William J. Clinton Presidential Library, Clinton Presidential Records, National Security Council, NSC Emails, MSMail-Non-Record, September 1994-September 1997, Radio Marti, OA/Box Number 605000, [07/28/1995-04/26/1996]. Unclassified.",
   "1996-11-26|clinton-usia|82":
-    "Source: William J. Clinton Presidential Library, Clinton Presidential Records, National Security Council, Matt Lorin (Democracy/Human Rights), OA/Box Number 799, International Broadcasting-Lorin (3). Released under FOIA 2006-0208-F; the withdrawal sheet lists P5 restrictions.",
+    "Source: William J. Clinton Presidential Library, Clinton Presidential Records, National Security Council, Matt Lorin (Democracy/Human Rights), OA/Box Number 799, International Broadcasting-Lorin (3). No classification marking.",
   "1998-07-07|pdd-68|13":
-    "Source: William J. Clinton Presidential Library, Clinton Presidential Records, National Security Council, NSC Emails, Exchange-Record, September 1997-January 2001, IPI and PDD, OA/Box Number 620000, [06/10/1998-08/03/1998]. Released under FOIA 2006-0207-F; the withdrawal sheet lists P5 restrictions.",
+    "Source: William J. Clinton Presidential Library, Clinton Presidential Records, National Security Council, NSC Emails, Exchange-Record, September 1997-January 2001, IPI and PDD, OA/Box Number 620000, [06/10/1998-08/03/1998]. Unclassified.",
   "1998-09-25|pdd-68|4":
-    "Source: William J. Clinton Presidential Library, Clinton Presidential Records, National Security Council, Jamie Metzl (Multilateral & Humanitarian Affairs), OA/Box Number 1348, Kosovo III [1]. Released under FOIA 2006-0207-F; the withdrawal sheet lists P5 restrictions.",
+    "Source: William J. Clinton Presidential Library, Clinton Presidential Records, National Security Council, Jamie Metzl (Multilateral & Humanitarian Affairs), OA/Box Number 1348, Kosovo III [1]. Unclassified.",
   "1998-12-01|pdd-68|9":
-    "Source: William J. Clinton Presidential Library, Clinton Presidential Records, National Security Council, NSC Emails, Exchange-Record, September 1997-January 2001, IPI PDD, OA/Box Number 620000, [12/01/1998-12/22/1998]. Released under FOIA 2006-0207-F; the withdrawal sheet lists P1/b(1) and P5 restrictions.",
+    "Source: William J. Clinton Presidential Library, Clinton Presidential Records, National Security Council, NSC Emails, Exchange-Record, September 1997-January 2001, IPI PDD, OA/Box Number 620000, [12/01/1998-12/22/1998]. Unclassified.",
   "1999-09-24|ring-around-serbia|39":
-    "Source: William J. Clinton Presidential Library, Clinton Presidential Records, National Security Council, NSC Emails, Exchange-Record, September 1997-January 2001, Ring Around Serbia, OA/Box Number 620000, [09/24/1999-09/01/2000]. Released under FOIA 2006-0206-F; the withdrawal sheet lists P5 restrictions.",
+    "Source: William J. Clinton Presidential Library, Clinton Presidential Records, National Security Council, NSC Emails, Exchange-Record, September 1997-January 2001, Ring Around Serbia, OA/Box Number 620000, [09/24/1999-09/01/2000]. Unclassified.",
   "1999-11-04|ring-around-serbia|2":
-    "Source: William J. Clinton Presidential Library, Clinton Presidential Records, National Security Council, NSC Cables, January 1999-December 2000, Ring Around Serbia, OA/Box Number 530000, [04/08/1999-12/14/1999]. Released under FOIA 2006-0206-F; the withdrawal sheet lists P5 restrictions.",
+    "Source: William J. Clinton Presidential Library, Clinton Presidential Records, National Security Council, NSC Cables, January 1999-December 2000, Ring Around Serbia, OA/Box Number 530000, [04/08/1999-12/14/1999]. Unclassified.",
   "2000-01-10|lieberman-uspd|51":
-    "Source: William J. Clinton Presidential Library, Clinton Presidential Records, National Security Council, NSC Cables, January 1999-December 2000 [Secretary], OA/Box Number 530000, [12/22/1999-12/08/2000]. Released under FOIA 2006-0199-F; the withdrawal sheet lists P5 restrictions.",
+    "Source: William J. Clinton Presidential Library, Clinton Presidential Records, National Security Council, NSC Cables, January 1999-December 2000 [Secretary], OA/Box Number 530000, [12/22/1999-12/08/2000]. Unclassified.",
   "2000-03-10|lieberman-uspd|51":
-    "Source: William J. Clinton Presidential Library, Clinton Presidential Records, National Security Council, NSC Cables, January 1999-December 2000 [Secretary], OA/Box Number 530000, [12/22/1999-12/08/2000]. Released under FOIA 2006-0199-F; the withdrawal sheet lists P5 restrictions.",
+    "Source: William J. Clinton Presidential Library, Clinton Presidential Records, National Security Council, NSC Cables, January 1999-December 2000 [Secretary], OA/Box Number 530000, [12/22/1999-12/08/2000]. Unclassified.",
   "2000-05-29|rfe-rl|1":
-    "Source: William J. Clinton Presidential Library, Clinton Presidential Records, National Security Council, NSC Emails, Exchange-Non-Record, March 1997-January 2001, RFE, OA/Box Number 630000, [08/02/1999-01/12/2001]. Released under FOIA 2006-0203-F; the withdrawal sheet lists P5 restrictions.",
+    "Source: William J. Clinton Presidential Library, Clinton Presidential Records, National Security Council, NSC Emails, Exchange-Non-Record, March 1997-January 2001, RFE, OA/Box Number 630000, [08/02/1999-01/12/2001]. Unclassified.",
   "2000-11-15|culture-diplomacy|58":
-    "Source: William J. Clinton Presidential Library, Clinton Presidential Records, National Security Council, Automated Records Management System [Email], NSC 2000/01-2001/01, Conference on Culture and Diplomacy, OA/Box Number 1250000, [11/15/2000-11/28/2000]. Released under FOIA 2006-0201-F; the withdrawal sheet lists P5 restrictions."
+    "Source: William J. Clinton Presidential Library, Clinton Presidential Records, National Security Council, Automated Records Management System [Email], NSC 2000/01-2001/01, Conference on Culture and Diplomacy, OA/Box Number 1250000, [11/15/2000-11/28/2000]. No classification marking."
 };
 
 const chronology = [
@@ -745,22 +745,22 @@ const boundaries = [
   }
 ];
 
-const sourceNoteSkeleton = `Draft Clinton Library source-note order, following the published Bush Library FRUS pattern:
-Source: repository, presidential records, office or collection, series or staff files, OA/Box or folder trail. Classification, handling, release, and restriction facts.
+const sourceNoteSkeleton = `Publication-form Clinton Library source-note order, following published FRUS practice:
+Source: repository, presidential records, office or collection, series or staff files, OA/Box or folder trail. Verified classification and handling statement.
 
 Tracking fields outside note prose:
 - Public URL or item ID
 - NAID or catalog URL
 - Local filename or extraction path
 - Search query that found the item
+- FOIA case number and Clinton Library withdrawal-sheet P-code metadata
 - Compiler disposition and boundary rationale
 
 Clinton Library review-PDF rule:
 - Extract document-image pages first
 - Append the relevant Withdrawal/Redaction Sheet as the final provenance page
 - Keep source PDF URL, source pages, document pages, and provenance page in tracking fields
-- Treat Clinton withdrawal-sheet P codes as restriction metadata, not classification markings
-- Verify final classification and handling against the document images before selection`;
+- Verify classification and handling against the document images before selection`;
 
 const sourceRoot = document.querySelector("#source-root");
 const sourceSummary = document.querySelector("#source-summary");

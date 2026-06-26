@@ -45,3 +45,7 @@ For a GitHub-ready summary of what this assist page does and how it was checked,
 For the source-note FRUS Annotation Checker rerun, see:
 
 [`reports/frus-source-note-annotation-checker-2026-06-26.md`](reports/frus-source-note-annotation-checker-2026-06-26.md)
+
+For the final publication-form source-note verification, see:
+
+[`reports/frus-source-note-publication-readiness-2026-06-26.md`](reports/frus-source-note-publication-readiness-2026-06-26.md)
