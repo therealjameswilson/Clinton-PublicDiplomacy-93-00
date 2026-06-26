@@ -32,29 +32,30 @@ FOIA case numbers, source PDF URLs, source page ranges, document page ranges, pr
 
 | Date | Candidate | Classification statement in source note |
 | --- | --- | --- |
-| 1993-05-14 | Robert Morley to Anthony Lake, proposed remarks by the President on Cuba's Independence Day | No classification marking. |
-| 1993-07-23 | Gordon Adams and Richard Clarke to Leon Panetta et al., legislative strategy for international broadcasting consolidation | No classification marking. |
-| 1993-09-18 | Jeremy Rosner to Nancy Soderberg et al., Radios -- Update | Unclassified. |
-| 1994-06-24 | Leon Panetta to Anthony Lake, cost of relocating RFE/RL headquarters to Prague | No classification marking. |
-| 1995-01-10 | John Lennon to Morton Halperin, Public Diplomacy-USIA | Unclassified. |
-| 1995-02-14 | Joseph Duffey to Morton Halperin, Co-ordinated Public Affairs Campaigns in Foreign Policy | No classification marking. |
-| 1995-03-25 | Morton Halperin to Gordon Adams et al., NPR Phase II: Public Affairs/Public Diplomacy-State/USIA | No classification marking. |
-| 1996-04-22 | William Davis to Edwin Atlas et al., Radio Marti move to Miami | Unclassified. |
-| 1996-11-26 | Janie Fritzman to Director Duffey, removal of USIA employees from the Patrick Henry Building | No classification marking. |
-| 1998-07-07 | Eric Schwartz to Robert Malley, International Public Information | Unclassified. |
-| 1998-09-25 | Thomas Adams to Robert Gelbard, U.S. Programming for ANEM TV | Unclassified. |
-| 1998-12-01 | James Baker email and attached package, IPI PDD Package | Unclassified. |
-| 1999-09-24 | Mara Rudman and Tina Kaidanow email thread, requests for Sandy Berger speech and Ring Around Serbia language | Unclassified. |
-| 1999-11-04 | U.S. Office Pristina to Secretary of State, moving forward on public television in Kosovo | Unclassified. |
-| 2000-01-10 | Public Diplomacy Guidelines | Unclassified. |
-| 2000-03-10 | Public Diplomacy in Ukraine and the NIS | Unclassified. |
-| 2000-05-29 | Andrew Weiss and Mark Medish email thread, RFE/RL and Babitskiy | Unclassified. |
-| 2000-11-15 | Brian Carlson, revised scenario for East Room event on the White House Conference on Culture and Diplomacy | No classification marking. |
+| 1993-05-14 | Memorandum From Robert B. Morley of the National Security Council Staff to the President's Assistant for National Security Affairs (Lake) | No classification marking. |
+| 1993-07-23 | Memorandum From Gordon Adams and Richard Clarke to Leon Panetta, Anthony Lake, and Howard Paster | No classification marking. |
+| 1993-09-18 | Electronic Message From Jeremy D. Rosner of the National Security Council Staff to Nancy Soderberg and Others | Unclassified. |
+| 1994-06-24 | Memorandum From the Director of the Office of Management and Budget (Panetta) to the President's Assistant for National Security Affairs (Lake) | No classification marking. |
+| 1995-01-10 | Electronic Message From John E. Lennon to Morton H. Halperin | Unclassified. |
+| 1995-02-14 | Memorandum From the Director of the United States Information Agency (Duffey) to Morton H. Halperin of the National Security Council Staff | No classification marking. |
+| 1995-03-25 | Memorandum From Morton H. Halperin of the National Security Council Staff to Gordon Adams, William Wise, and Pamela Johnson | No classification marking. |
+| 1996-04-22 | Electronic Message From William K. Davis to Edwin L. Atlas and Others | Unclassified. |
+| 1996-11-26 | Memorandum From Janie Fritzman to the Director of the United States Information Agency (Duffey) | No classification marking. |
+| 1998-07-07 | Electronic Message From Eric P. Schwartz to Robert Malley | Unclassified. |
+| 1998-09-25 | Memorandum From Thomas C. Adams of the Department of State to Robert S. Gelbard | Unclassified. |
+| 1998-12-01 | Electronic Message From James E. Baker to Charles A. Allen and Others | Unclassified. |
+| 1999-09-24 | Electronic Message From Mara E. Rudman to Tina S. Kaidanow and Others | Unclassified. |
+| 1999-11-04 | Telegram From the U.S. Office Pristina to the Department of State | Unclassified. |
+| 2000-01-10 | Telegram From the Department of State to All Diplomatic and Consular Posts | Unclassified. |
+| 2000-03-10 | Telegram From the Embassy in Ukraine to the Department of State | Unclassified. |
+| 2000-05-29 | Electronic Message From Andrew S. Weiss to Mark C. Medish | Unclassified. |
+| 2000-11-15 | Electronic Message From Brian E. Carlson to Antony J. Blinken and Others | No classification marking. |
 
 ## Final Check
 
 All 18 source notes are now in finished publication-form prose for the website:
 
+- Their document headings use published FRUS-style forms: `Memorandum From...`, `Electronic Message From...`, or `Telegram From...`.
 - They begin with `Source:`.
 - They use the full Clinton Library source family.
 - They include the parent `National Security Council` source family before NSC subseries names.

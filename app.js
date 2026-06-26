@@ -344,7 +344,7 @@ const sourcePdfUrls = {
 const documentCandidates = [
   {
     date: "1993-05-14",
-    title: "Robert Morley to Anthony Lake, proposed remarks by the President on Cuba's Independence Day",
+    title: "Memorandum From Robert B. Morley of the National Security Council Staff to the President's Assistant for National Security Affairs (Lake)",
     sourceId: "radio-marti",
     sourcePages: "54-59",
     documentPages: "55-59",
@@ -356,7 +356,7 @@ const documentCandidates = [
   },
   {
     date: "1993-07-23",
-    title: "Gordon Adams and Richard Clarke to Leon Panetta et al., legislative strategy for international broadcasting consolidation",
+    title: "Memorandum From Gordon Adams and Richard Clarke to Leon Panetta, Anthony Lake, and Howard Paster",
     sourceId: "international-broadcasting",
     sourcePages: "79-82",
     documentPages: "80-82",
@@ -368,7 +368,7 @@ const documentCandidates = [
   },
   {
     date: "1993-09-18",
-    title: "Jeremy Rosner to Nancy Soderberg et al., Radios -- Update",
+    title: "Electronic Message From Jeremy D. Rosner of the National Security Council Staff to Nancy Soderberg and Others",
     sourceId: "international-broadcasting",
     sourcePages: "65, 67-68",
     documentPages: "67-68",
@@ -380,7 +380,7 @@ const documentCandidates = [
   },
   {
     date: "1994-06-24",
-    title: "Leon Panetta to Anthony Lake, cost of relocating RFE/RL headquarters to Prague",
+    title: "Memorandum From the Director of the Office of Management and Budget (Panetta) to the President's Assistant for National Security Affairs (Lake)",
     sourceId: "international-broadcasting",
     sourcePages: "29-35",
     documentPages: "30-35",
@@ -392,7 +392,7 @@ const documentCandidates = [
   },
   {
     date: "1995-01-10",
-    title: "John Lennon to Morton Halperin, Public Diplomacy-USIA",
+    title: "Electronic Message From John E. Lennon to Morton H. Halperin",
     sourceId: "clinton-usia",
     sourcePages: "223, 225-229",
     documentPages: "225-229",
@@ -404,7 +404,7 @@ const documentCandidates = [
   },
   {
     date: "1995-02-14",
-    title: "Joseph Duffey to Morton Halperin, Co-ordinated Public Affairs Campaigns in Foreign Policy",
+    title: "Memorandum From the Director of the United States Information Agency (Duffey) to Morton H. Halperin of the National Security Council Staff",
     sourceId: "clinton-usia",
     sourcePages: "60, 67-70",
     documentPages: "67-70",
@@ -416,7 +416,7 @@ const documentCandidates = [
   },
   {
     date: "1995-03-25",
-    title: "Morton Halperin to Gordon Adams et al., NPR Phase II: Public Affairs/Public Diplomacy-State/USIA",
+    title: "Memorandum From Morton H. Halperin of the National Security Council Staff to Gordon Adams, William Wise, and Pamela Johnson",
     sourceId: "clinton-usia",
     sourcePages: "1-10",
     documentPages: "2-10",
@@ -428,7 +428,7 @@ const documentCandidates = [
   },
   {
     date: "1996-04-22",
-    title: "William Davis to Edwin Atlas et al., Radio Marti move to Miami",
+    title: "Electronic Message From William K. Davis to Edwin L. Atlas and Others",
     sourceId: "radio-marti",
     sourcePages: "51-53",
     documentPages: "52-53",
@@ -440,7 +440,7 @@ const documentCandidates = [
   },
   {
     date: "1996-11-26",
-    title: "Janie Fritzman to Director Duffey, removal of USIA employees from the Patrick Henry Building",
+    title: "Memorandum From Janie Fritzman to the Director of the United States Information Agency (Duffey)",
     sourceId: "clinton-usia",
     sourcePages: "82-85",
     documentPages: "83-85",
@@ -452,7 +452,7 @@ const documentCandidates = [
   },
   {
     date: "1998-07-07",
-    title: "Eric Schwartz to Robert Malley, International Public Information",
+    title: "Electronic Message From Eric P. Schwartz to Robert Malley",
     sourceId: "pdd-68",
     sourcePages: "13-15",
     documentPages: "14-15",
@@ -464,7 +464,7 @@ const documentCandidates = [
   },
   {
     date: "1998-09-25",
-    title: "Thomas Adams to Robert Gelbard, U.S. Programming for ANEM TV",
+    title: "Memorandum From Thomas C. Adams of the Department of State to Robert S. Gelbard",
     sourceId: "pdd-68",
     sourcePages: "4-6",
     documentPages: "5-6",
@@ -476,7 +476,7 @@ const documentCandidates = [
   },
   {
     date: "1998-12-01",
-    title: "James Baker email and attached package, IPI PDD Package",
+    title: "Electronic Message From James E. Baker to Charles A. Allen and Others",
     sourceId: "pdd-68",
     sourcePages: "9-12",
     documentPages: "11-12",
@@ -488,7 +488,7 @@ const documentCandidates = [
   },
   {
     date: "1999-09-24",
-    title: "Mara Rudman and Tina Kaidanow email thread, requests for Sandy Berger speech and Ring Around Serbia language",
+    title: "Electronic Message From Mara E. Rudman to Tina S. Kaidanow and Others",
     sourceId: "ring-around-serbia",
     sourcePages: "39, 41-49",
     documentPages: "41-49",
@@ -500,7 +500,7 @@ const documentCandidates = [
   },
   {
     date: "1999-11-04",
-    title: "U.S. Office Pristina to Secretary of State, moving forward on public television in Kosovo",
+    title: "Telegram From the U.S. Office Pristina to the Department of State",
     sourceId: "ring-around-serbia",
     sourcePages: "2, 18-22",
     documentPages: "18-22",
@@ -512,7 +512,7 @@ const documentCandidates = [
   },
   {
     date: "2000-01-10",
-    title: "Public Diplomacy Guidelines",
+    title: "Telegram From the Department of State to All Diplomatic and Consular Posts",
     sourceId: "lieberman-uspd",
     sourcePages: "51, 53-57",
     documentPages: "53-57",
@@ -524,7 +524,7 @@ const documentCandidates = [
   },
   {
     date: "2000-03-10",
-    title: "Public Diplomacy in Ukraine and the NIS",
+    title: "Telegram From the Embassy in Ukraine to the Department of State",
     sourceId: "lieberman-uspd",
     sourcePages: "51, 59-61",
     documentPages: "59-61",
@@ -536,7 +536,7 @@ const documentCandidates = [
   },
   {
     date: "2000-05-29",
-    title: "Andrew Weiss and Mark Medish email thread, RFE/RL and Babitskiy",
+    title: "Electronic Message From Andrew S. Weiss to Mark C. Medish",
     sourceId: "rfe-rl",
     sourcePages: "1-6",
     documentPages: "2-6",
@@ -548,7 +548,7 @@ const documentCandidates = [
   },
   {
     date: "2000-11-15",
-    title: "Brian Carlson, revised scenario for East Room event on the White House Conference on Culture and Diplomacy",
+    title: "Electronic Message From Brian E. Carlson to Antony J. Blinken and Others",
     sourceId: "culture-diplomacy",
     sourcePages: "58-66",
     documentPages: "59-66",
